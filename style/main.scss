@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'roboto';
 }
+
 $main-color: #173047;
 $main-font:'Roboto';
 
@@ -88,7 +89,7 @@ header {
 
 }
 
-.hero__img{
+.hero__img {
   width: 820px;
   height: 366px;
   border-radius: 6px;
@@ -97,7 +98,7 @@ header {
   margin-top: 32px;
 }
 
-.data{
+.data {
   font-family: $main-font;
   font-weight: 500;
   font-size: 18px;
@@ -109,7 +110,7 @@ header {
   margin: 36px 0px 24px 360px;
 }
 
-h1{
+h1 {
   font-family: $main-font;
   font-weight: 500;
   font-size: 36px;
@@ -119,7 +120,7 @@ h1{
   margin-left: 360px;
 }
 
-.bloc{
+.bloc {
   width: 370px;
   height: 65px;
   // background-color: yellow;
@@ -129,15 +130,16 @@ h1{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  .bloc__link{
+
+  .bloc__link {
     width: 37px;
     height: 37px;
     background-color: #3CC8AE;
     box-shadow: 0px 22px 34px rgba(60, 200, 174, 0.5);
     border-radius: 6px;
   }
-  
-  .bloc__line{
+
+  .bloc__line {
     width: 1px;
     height: 65px;
     background: #D8D8D8;
@@ -145,9 +147,9 @@ h1{
     opacity: 0.5;
   }
 
-  .bloc__text{
+  .bloc__text {
 
-    .bloc__text__one{
+    .bloc__text__one {
       font-family: $main-font;
       font-weight: 400;
       font-size: 13px;
@@ -158,8 +160,8 @@ h1{
       mix-blend-mode: normal;
       opacity: 0.5;
     }
-  
-    .bloc__namber{
+
+    .bloc__namber {
       font-family: $main-font;
       font-weight: 900;
       font-size: 21px;
@@ -170,10 +172,11 @@ h1{
   }
 }
 
-.blok{
+.blok {
   width: 820px;
   margin-left: 360px;
-  .text{
+
+  .text {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -181,15 +184,16 @@ h1{
     mix-blend-mode: normal;
     opacity: 0.8;
   }
-  .blok__title{
+
+  .blok__title {
     margin: 40px 0px 17px 0px;
   }
 
-  .img{
+  .img {
     margin: 40px 0px 20px 0px;
   }
 
-  .blok__link{
+  .blok__link {
     font-family: 'SFProDisplay';
     font-size: 15px;
     line-height: 18px;
@@ -202,13 +206,14 @@ h1{
 
 }
 
-.lest{
+.lest {
   width: 820px;
   height: 221px;
   margin-left: 360px;
   margin-top: 40px;
   background: linear-gradient(180deg, #F7F8FA 0%, #EDF1F5 100%);
-  .lest__title{
+
+  .lest__title {
     font-weight: 500;
     font-size: 28px;
     line-height: 28px;
@@ -217,7 +222,8 @@ h1{
     padding-top: 36px;
     padding-left: 36px;
   }
-  .lest__text{
+
+  .lest__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -229,17 +235,19 @@ h1{
     margin: 16px 23px 0px 36px;
   }
 
-  .lest__input{
+  .lest__input {
     margin-left: 36px;
   }
-  .input{
+
+  .input {
     padding: 16px 368px 17px 24px;
     border: none;
     background: #FFFFFF;
     border: 1px solid #D4D8DF;
     border-radius: 3px
   }
-  .lest__button{
+
+  .lest__button {
     padding: 18px 15px 19px 24px;
     border: none;
     background: #3CC8AE;
@@ -249,23 +257,25 @@ h1{
     color: #FFFFFF;
     margin-bottom: 63px;
   }
-  .lest__button:hover{
+
+  .lest__button:hover {
     background-color: hsl(169, 65%, 53%);
     border-radius: hwb(169 20% 25%);
   }
-  .lest__button:focus{
+
+  .lest__button:focus {
     box-shadow: 0px 0px 0px 2px hsl(169, 100%, 52%);
   }
 }
 
-.line{
+.line {
   width: 820px;
   height: 1px;
   background: #D8D8D8;
   margin: 40px 0px 24px 360px;
 }
 
-.title{
+.title {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
